@@ -1,0 +1,39 @@
+.inputarea {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.inputarea input {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.searchList {
+  position: absolute;
+  width: 100%;
+  top: 13px;
+  list-style: none;
+  border: 1px solid #ccc;
+  z-index: 1;
+  padding: 0;
+}
+
+.searchList li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.searchList li:hover {
+  background-color: rgba(204, 204, 204, 0.301);
+}

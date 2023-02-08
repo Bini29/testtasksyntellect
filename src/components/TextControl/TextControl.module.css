@@ -1,0 +1,24 @@
+.inputarea {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.inputarea input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.inputarea button {
+  padding: 7px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 255, 0.555);
+  border: 1px solid #ccc;
+}
